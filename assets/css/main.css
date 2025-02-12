@@ -439,6 +439,8 @@ h6 {
     z-index: 3;
     width: 100%;
     height: 251px;
+    left: 0;
+    bottom: 0;
 }
 .gradient-bg::before{
     content: "";
