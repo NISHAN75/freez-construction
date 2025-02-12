@@ -434,27 +434,23 @@ h6 {
 .review-questionnaire-area {
     padding: 88px 0 336px;
 }
-.review-questionnaire-area::before{
+.gradient-bg {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 251px;
+}
+.gradient-bg::before{
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    top: 0;
+    height: 100%;
     width: 100%;
-    height: 251px;
-    z-index: 3;
+    z-index: 1;
     background: linear-gradient(180deg, #FFF 28.5%, #F1F1F1 100%);
     mix-blend-mode: multiply;
 }
-/* .review-questionnaire-area::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #F5F5F5;
-    z-index: 1;
-} */
 .review-questionnaire-area .container{
     max-width: 1160px;
 }
