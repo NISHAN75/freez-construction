@@ -1,0 +1,210 @@
+/* 1400, 1199, 991, 767, 575, 480, 360, 320 */
+/* CSS Index
+-----------------------------------
+1.default css
+-----------------------------------
+*/
+
+/* min-width 1500 */
+@media (max-width: 1600px) {
+
+    
+}
+/* min-width 1500 */
+@media (max-width: 1500px) {
+   
+}
+
+/* max-width 1399 */
+@media (max-width: 1399.98px) {
+    /* ======================= header area section start ============================= */
+    .right-button-wrapper{
+        padding-right: 0;
+    }
+    /* ======================= header area section end ============================= */
+
+
+}
+
+/* max-width 1199 */
+@media (max-width: 1199.98px) {
+
+
+
+}
+
+/* max-width 991 */
+@media (max-width: 991.98px) {
+    .thank-you-content h1 ,
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    h5 {
+        font-size: 22px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+/* all padding */
+.interior-installation-area{
+    padding: 50px 0;
+}
+/* all padding */
+/* ======================= banner section start  ============================= */
+.banner-content .title-info::before {
+    width: 100%;
+}
+.banner-content .title-info::after{
+    right: 0;
+}
+.banner-img-wrapper img {
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.banner-area {
+    padding: 100px 0 44px;
+}
+.banner-content {
+    padding-left: 0;
+}
+.banner-img-wrapper {
+    margin-top: 30px;
+}
+/* ======================= banner section end  ============================= */
+
+
+/* ======================= review questionnaire section start  ============================= */
+.review-questionnaire-area {
+    padding: 50px 0 336px;
+}
+/* ======================= review questionnaire section end  ============================= */
+/* ======================= login section start  ============================= */
+.login-bg.bg-fix {
+display: none;
+}
+.login-wrapper .contact-wrapper {
+    max-width: 100%;
+}
+/* ======================= login section end  ============================= */
+
+
+   
+}
+
+/* max-width 767 */
+@media (max-width: 767.98px) {
+    /* ======================= header area section start ============================= */
+    .header-logo img {
+        max-width: 150px;
+    }
+    /* ======================= header area section end ============================= */
+
+    /* ======================= review questionnaire section start  ============================= */
+    .review-questionnaire-list-wrapper {
+        padding-left:70px;
+    }
+    .review-questionnaire-button {
+        margin-top: 50px;
+    }
+    .review-questionnaire-button .btn-1 {
+        margin-left: 0;
+    }
+/* ======================= review questionnaire section end  ============================= */
+}
+
+/* max-width 575 */
+@media (max-width: 575.98px) {
+    .thank-you-content h1 ,
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    /* ======================= banner section start  ============================= */
+    .banner-img-wrapper img {
+        height: 350px;
+    }
+    /* ======================= banner section end  ============================= */
+    /* ======================= interior installation section start  ============================= */
+    .video-icon {
+        height: 70px;
+        width: 70px;
+    }
+    .video-icon svg {
+        max-width: 24px;
+    }
+    .video-text {
+        font-size: 24px;
+        letter-spacing: 1.5px;
+        padding: 11.5px 9px 11.5px 60px;
+    }
+    .video-area {
+        min-height: 400px;
+    }
+    .interior-installation-item {
+        margin-bottom: 50px;
+    }
+    /* ======================= interior installation section end  ============================= */
+
+}
+
+/* max-width 479 */
+@media (max-width: 479.98px) {
+
+     /* ======================= header area section start ============================= */
+     .header-logo img {
+        max-width: 120px;
+    }
+    .header-logo {
+        padding: 29.5px 20.5px;
+    }
+    /* ======================= header area section end ============================= */
+
+    /* ======================= interior installation section start  ============================= */
+    .video-area {
+        min-height: 300px;
+    }
+    /* ======================= interior installation section end  ============================= */
+
+    /* ======================= review questionnaire section start  ============================= */
+    .review-questionnaire-title-wrapper.d-flex {
+        flex-wrap: wrap;
+        gap: 10px;
+        text-align: center;
+    }
+    .review-questionnaire-caption p {
+        margin-top: 0;
+    }
+    .review-questionnaire-title-wrapper.d-flex > div {
+        flex-basis: 100%;
+    }
+    .review-questionnaire-list-wrapper {
+        padding-left: 0;
+        text-align: center;
+    }
+/* ======================= review questionnaire section end  ============================= */
+
+}
+
+/* max-width 383 */
+@media (max-width: 383.98px) {
+
+}

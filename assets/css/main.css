@@ -1,0 +1,619 @@
+/*
+  The Name:Georgia Mechanical
+  Author: 
+  Support: 
+  Description: Georgia Mechanical
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1.default css
+-----------------------------------
+*/
+
+/* font  family  */
+.tk-din-2014 { 
+    font-family: "din-2014",sans-serif; 
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "din-2014",sans-serif; 
+    color: #000;
+    background-color: #F5F5F5;
+}
+
+/* lenis */
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+/* lenis */
+
+/* scroll bar */
+.os-scrollbar-handle {
+    background: #1188A3;
+}
+body>.os-scrollbar {
+    z-index: 999;
+}
+/* scroll bar */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* animation */
+.animation-line{
+    overflow: hidden;
+}
+/* animation */
+
+/* paralax img */
+.trigger-parallax {
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax-img {
+    height: calc(100% + 120px);
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(0);
+}
+
+/* paralax img */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-fix {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* container */
+.container {
+    max-width: 1168px;
+}
+
+/* z-index */
+.z-4 {
+    z-index: 4 !important;
+}
+
+/* z-index */
+
+/* input */
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="number"], 
+input[type="password"], 
+input[type="url"], 
+textarea {
+    width: 100%;
+    padding: 9.5px 12px;
+    background: #fff;
+    border: 1px solid #1188A3;
+    color: #000;
+    opacity: 1;
+    display: block;
+}
+textarea{
+	height: 116px;
+}
+input:focus , textarea:focus{
+	outline: none;
+	box-shadow: none;
+}
+.contact-info label {
+    color:#000;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.contact-info{
+    margin-bottom: 26px;
+}
+/* input */
+
+
+
+.animation-line p:last-child,
+.mb-p p:last-child{
+    margin-bottom: 0;
+}
+
+/* heading  style*/
+h1 , .h1,
+h2, .h2 , 
+h3, .h3 ,
+h4, .h4 ,
+h5, .h5 ,
+h6 , .h6 {
+    color: #1188A3;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "din-2014",sans-serif; 
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+/* all button */
+.btn-1 {
+    color: #FFF;
+    font-family: "din-2014",sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    background-color: #1188A3;
+    display: inline-block;
+    padding: 12.5px 23px;
+    transition: all 0.3s linear;
+}
+.btn-1:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* all button */
+
+
+/* ======================= header area section start ============================= */
+.header-area {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    transition: all 0.3s linear;
+}
+.header-fix{
+    height: 76px;
+}
+.header-area::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #FFF 28.5%, #F1F1F1 100%);
+    mix-blend-mode: multiply;
+    z-index: 2;
+    border-bottom: 2px solid #E7E7E7;
+}
+.header-area .container{
+    max-width: 1236px;
+}
+
+/* nice select */
+.nice-select {
+    background-color: #1188A3;
+    border-radius: 0px;
+    border: 0;
+    font-size: 22.909px;
+    font-weight: 400;
+    height: 56px;
+    line-height: 56px;
+    outline: none;
+    padding-left: 23px;
+    padding-right: 30px;
+    color: #fff;
+}
+.nice-select:after {
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    height: 10px;
+    right: 15px;
+    top: 50%;
+    width: 10px;
+    margin-top: -5px;
+}
+.nice-select .list{
+    background-color: #1188A3;
+}
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+    background-color: #000;
+}
+.current {
+    padding-right: 3px;
+}
+/* nice select */
+
+.logout-btn{
+    color: #1188A3;
+    font-family: "din-2014",sans-serif; 
+    text-decoration: underline;
+    transition: all 0.3s linear;
+}
+.logout-btn:hover{
+    color: #000;
+    text-decoration: none;
+}
+.right-button-wrapper {
+    gap: 26px;
+    padding: 10px 0;
+    padding-right: 34px;
+}
+.header-logo {
+    display: inline-block;
+    position: absolute;
+    background: #fff;
+    background: #FFF;
+    box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.06), -1px 4px 24px 0px rgba(0, 0, 0, 0.14), 0px 4px 5px 0px rgba(0, 0, 0, 0.05);
+    padding: 29.5px 42.5px;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+.header-logo img{
+    max-width: 250px;
+}
+
+/* ======================= header area section end ============================= */
+
+/* ======================= banner section start  ============================= */
+.banner-area {
+    padding: 44px 0;
+}
+.banner-area .container{
+    max-width: 1250px;
+}
+.banner-img-wrapper img {
+    max-width: 581px;
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
+    width: 100%;
+}
+.banner-content {
+    padding-left: 41px;
+}
+.banner-content h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.title-info{
+    font-size: 40px;
+    position: relative;
+    z-index: 3;
+    color: #F16C20;
+}
+.title-info::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 100%;
+    height: 2px;
+    background-color: #8CCFDE;
+    z-index: 1;
+}
+.title-info::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -14.5px;
+    height: 8px;
+    width: 8px;
+    background: #8CCFDE;
+    transform: rotate(45deg);
+    z-index: 2;
+}
+.banner-content .title-info::before {
+    width: calc(100% + 154px);;
+}
+
+.banner-content .title-info::after {
+    right: -154px;
+}
+.banner-area::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: calc(100% - 104px);
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+/* ======================= banner section end  ============================= */
+
+/* ======================= interior installation section start  ============================= */
+.interior-installation-area {
+    padding: 42px 0;
+}
+.interior-installation-item {
+    margin-bottom: 106px;
+}
+.interior-installation-item:last-child{
+    margin-bottom: 0;
+}
+.interior-installation-item .container {
+    max-width: 974px;
+}
+.video-icon {
+    height: 108px;
+    width: 108px;
+    background: #1188A3;
+    border-radius: 100%;
+    margin-right: -50px;
+    z-index: 9;
+}
+.video-icon svg{
+    margin-left: 8px;
+}
+.video-text {
+    border-radius: 14px;
+    background: #FFF;
+    color: #1188A3;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 0.96;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 9.5px 32px 9.5px 67px;
+    display: inline-block;
+    filter: drop-shadow(0px 10px 9px rgba(0, 0, 0, 0.32));
+    transition: all 0.3s linear;
+}
+.video-play-wrapper:hover .video-text{
+    color: #000;
+}
+.video-area {
+    min-height: 571px;
+}
+.video-area::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #F3F3F3 0%, #737373 100%);
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+/* ======================= interior installation section end  ============================= */
+
+/* ======================= review questionnaire section start  ============================= */
+.review-questionnaire-area {
+    padding: 88px 0 336px;
+}
+.review-questionnaire-area::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 251px;
+    z-index: 3;
+    background: linear-gradient(180deg, #FFF 28.5%, #F1F1F1 100%);
+    mix-blend-mode: multiply;
+}
+/* .review-questionnaire-area::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+    z-index: 1;
+} */
+.review-questionnaire-area .container{
+    max-width: 1160px;
+}
+.review-questionnaire-area .section-title-wrapper{
+    max-width: 1047px;
+    margin-bottom: 45px;
+}
+.review-questionnaire-area .section-title-wrapper .title-info::after{
+    display: none;
+}
+.review-questionnaire-area h3 {
+    margin-bottom: 32px;
+}
+.review-questionnaire-number {
+    color:  #F16C20;
+    font-size: 40px;
+    font-weight: 400;
+}
+.review-questionnaire-caption p {
+    font-weight: 600;
+    margin-top: 5px;
+}
+.review-questionnaire-title-wrapper{
+    gap: 30px;
+}
+.review-questionnaire-item {
+    max-width: 833px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 37px;
+}
+.review-questionnaire-caption {
+    max-width: 756px;
+}
+.review-questionnaire-item:last-child{
+    margin-bottom: 0;
+}
+.review-questionnaire-list-wrapper {
+    padding-left: 170px;
+    padding-top: 25px;
+}
+.review-questionnaire-list-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.review-questionnaire-list-info input{
+    display: none;
+}
+.review-questionnaire-list-info label {
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    padding-left: 39px;
+    cursor: pointer;
+}
+.review-questionnaire-list-info label::after,
+.review-questionnaire-list-info label::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    height: 24px;
+    width: 24px;
+    background-color: #D9D9D9;
+}
+.review-questionnaire-list-info label::after {
+    height: 14px;
+    width: 14px;
+    background: #1188A3;
+    top: 6px;
+    left: 5px;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+.review-questionnaire-list-info input[type="checkbox"]:checked  ~ label::after{
+    opacity: 1;
+}
+.review-questionnaire-list-info {
+    margin-bottom: 10px;
+}
+.review-questionnaire-list-info:last-child{
+    margin-bottom: 0;
+}
+.review-questionnaire-button {
+    margin-top: 76px;
+}
+.review-questionnaire-button .btn-1 {
+    margin-left: -45px;
+}
+
+.rotate-img {
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+    background: #F6F6F6;
+    z-index: 1;
+}
+.rotate-img img {
+    mix-blend-mode: multiply;
+}
+ .div-info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 32px;
+    width: 100%;
+    background-color: #1188A3;
+    z-index: 3;
+ }
+/* ======================= review questionnaire section end  ============================= */
+
+/* ======================= login section start  ============================= */
+.thank-you-banner, .login-wrapper {
+    min-height: 100vh;
+    padding: 263px 0 150px;
+}
+.thank-you-banner {
+    padding: 150px 0;
+}
+.login-wrapper .contact-wrapper {
+    max-width: 519px; 
+}
+.forgot-credentials{
+    color: #ABABAB;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+.forgot-credentials:hover{
+    color: #000;
+    text-decoration: none;
+}
+.login-bg {
+    position: absolute;
+    right: 0;
+    width: calc(50% - 80px);
+    height: 100%;
+    z-index: 1;
+    top: 0;
+}
+/* ======================= login section end  ============================= */
+
+/* ======================= login section end  ============================= */
+.thank-you-content {
+    max-width: 562px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.thank-you-content p{
+    text-align: left;
+}
+.thank-you-content h1 {
+    margin-bottom: 16px;
+    font-size: 60px;
+}
+.thank-you-content .btn-1 {
+    margin-top: 30px;
+}
+/* ======================= login section end  ============================= */
