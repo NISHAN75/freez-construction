@@ -95,8 +95,19 @@
 }
 /* ======================= review questionnaire section end  ============================= */
 /* ======================= login section start  ============================= */
-.login-bg.bg-fix {
-display: none;
+.header-area.login-header {
+    z-index: 33;
+}
+.login-bg {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    top: 0;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+.login-wrapper{
+    padding-top: 0;
 }
 .login-wrapper .contact-wrapper {
     max-width: 100%;
@@ -164,6 +175,12 @@ display: none;
     }
     /* ======================= interior installation section end  ============================= */
 
+    /* ======================= login section start  ============================= */
+    .login-bg{
+        height: 300px;
+    }
+    /* ======================= login section end  ============================= */
+
 }
 
 /* max-width 479 */
@@ -174,7 +191,14 @@ display: none;
         max-width: 120px;
     }
     .header-logo {
-        padding: 29.5px 20.5px;
+        padding: 22.5px 10.5px;
+    }
+    .right-button-wrapper {
+        gap: 8px;
+    }
+    .nice-select {
+        font-size: 18px;
+        padding-left: 15px;
     }
     /* ======================= header area section end ============================= */
 
@@ -206,5 +230,7 @@ display: none;
 
 /* max-width 383 */
 @media (max-width: 383.98px) {
-
+    .header-logo img {
+        max-width: 100px;
+    }
 }
